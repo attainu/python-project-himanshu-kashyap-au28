@@ -147,7 +147,6 @@ def check_win(player_name, position):
     if MAX_VAL == position:
         print("\n\n\nThats it.\n\n" + player_name + " won the game.")
         print("Congratulations " + player_name)
-        print("\nThank you for playing the game. Please visit https://www.pythoncircle.com\n\n")
         sys.exit(1)
 
 
